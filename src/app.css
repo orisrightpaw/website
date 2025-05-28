@@ -1,0 +1,43 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+	font-family: 'SN Pro';
+	src: url('/fonts/SNPro/SNPro-Regular.woff2');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SN Pro';
+	src: url('/fonts/SNPro/SNPro-Bold.woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SN Pro';
+	src: url('/fonts/SNPro/SNPro-RegularItalic.woff2');
+	font-weight: 200;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SN Pro';
+	src: url('/fonts/SNPro/SNPro-BoldItalic.woff2');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+html,
+body {
+	@apply text-gray-400;
+	background-color: #212121;
+	background-image: url('$lib/img/carbon.webp');
+	font-family: 'SN Pro', sans-serif;
+}
