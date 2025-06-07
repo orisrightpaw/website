@@ -6,7 +6,7 @@
 	{#if typeof src === 'string'}
 		<img {src} alt="Button" width="88px" height="31px" />
 	{:else}
-		<enhanced:img {src} alt="Button" />
+		<img {src} alt="Button" />
 	{/if}
 {/snippet}
 

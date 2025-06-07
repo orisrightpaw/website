@@ -5,17 +5,17 @@
 	import Image from '$lib/components/Image.svelte';
 	import SocialLink from '$lib/components/SocialLink.svelte';
 
-	import Robin from '$lib/img/buttons/robin.png?enhanced';
+	import Robin from '$lib/img/buttons/robin.png';
 	import azumanga from '$lib/img/buttons/azumanga.gif';
 	import Firefox from '$lib/img/buttons/firefox.gif';
 	import IndieWeb from '$lib/img/buttons/indieweb.gif';
-	import micro from '$lib/img/buttons/micro.png?enhanced';
-	import percocet from '$lib/img/buttons/percocet.png?enhanced';
-	import SnowLeopards from '$lib/img/buttons/snowleopards.png?enhanced';
-	import split from '$lib/img/buttons/split.png?enhanced';
-	import Stitch from '$lib/img/buttons/stitch.png?enhanced';
-	import TwoPaws from '$lib/img/buttons/twopaws.png?enhanced';
-	import veast from '$lib/img/buttons/veast.png?enhanced';
+	import micro from '$lib/img/buttons/micro.png';
+	import percocet from '$lib/img/buttons/percocet.png';
+	import SnowLeopards from '$lib/img/buttons/snowleopards.png';
+	import split from '$lib/img/buttons/split.png';
+	import Stitch from '$lib/img/buttons/stitch.png';
+	import TwoPaws from '$lib/img/buttons/twopaws.png';
+	import veast from '$lib/img/buttons/veast.png';
 </script>
 
 <div class="m-auto grid size-fit max-w-xl gap-2">
