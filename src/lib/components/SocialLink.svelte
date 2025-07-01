@@ -1,7 +1,20 @@
 <script lang="ts">
-	let { href, rel = '', children } = $props();
+	import type { Snippet } from 'svelte';
+
+	let {
+		href = '',
+		rel = '',
+		children,
+		script
+	}: { href?: string; rel?: string; script?: Function; children: Snippet } = $props();
 </script>
 
-<a class="group flex" {href} target="_blank" title={new URL(href).hostname} {rel}>
-	{@render children()}
-</a>
+{#if script}
+	<button class="group flex" onclick={() => script}>
+		{@render children()}
+	</button>
+{:else}
+	<a class="group flex" {href} target="_blank" title={new URL(href).hostname} {rel}>
+		{@render children()}
+	</a>
+{/if}

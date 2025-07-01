@@ -1,4 +1,6 @@
 <script lang="ts">
+	let { data } = $props();
+
 	import dayjs from 'dayjs';
 
 	import Button8831 from '$lib/components/8831.svelte';
@@ -19,7 +21,7 @@
 </script>
 
 <div class="m-auto grid size-fit max-w-xl gap-2">
-	<div class="flex gap-2">
+	<div class="flex grow-0 gap-2">
 		<Image height="80px" width="80px" src="/img/avatar.png"></Image>
 		<div class="my-auto grid h-min gap-0.5">
 			<h1 class="items-center text-2xl font-bold leading-6 text-cirro">cirroskais</h1>
@@ -27,19 +29,40 @@
 			<div class="flex gap-1">
 				<SocialLink href="https://github.com/orisrightpaw" rel="me">
 					<i
-						class="ri-github-fill text-xl leading-6 opacity-70 transition-opacity group-hover:opacity-20"
+						class="ri-github-fill text-xl leading-7 opacity-70 transition-opacity group-hover:opacity-20"
 					>
 					</i>
 				</SocialLink>
-				<!-- <SocialLink href="https://social.snep.lol/@cirro" rel="me">
+				<SocialLink href="https://social.snep.lol/profile/cirro" rel="me">
 					<i
 						class="ri-fediverse-fill text-xl leading-7 opacity-70 transition-opacity group-hover:opacity-20"
 					>
 					</i>
-				</SocialLink> -->
+				</SocialLink>
+				<SocialLink href="mailto:cirro@snep.lol" rel="me">
+					<i
+						class="ri-mail-fill text-xl leading-7 opacity-70 transition-opacity group-hover:opacity-20"
+					>
+					</i>
+				</SocialLink>
+				<SocialLink script={() => alert('Signal: cirrosneppy.01')} rel="me">
+					<i
+						class="ri-signal-tower-fill text-xl leading-7 opacity-70 transition-opacity group-hover:opacity-20"
+					>
+					</i>
+				</SocialLink>
 			</div>
 		</div>
 	</div>
+
+	{#if data.lb.payload.count}
+		<p>
+			<i class="ri-disc-line"></i>
+			<span class="font-bold italic">{data.lb.payload.listens[0].track_metadata.artist_name}</span>
+			- {data.lb.payload.listens[0].track_metadata.track_name}
+		</p>
+	{/if}
+
 	<div>
 		<p>
 			Hi there, and welcome to my website! My name is <span class="font-black text-cirro"
