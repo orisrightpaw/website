@@ -12,12 +12,15 @@
 	import Firefox from '$lib/img/buttons/firefox.gif';
 	import IndieWeb from '$lib/img/buttons/indieweb.gif';
 	import micro from '$lib/img/buttons/micro.png';
+	import nilenta from '$lib/img/buttons/nilenta.png';
 	import percocet from '$lib/img/buttons/percocet.png';
 	import SnowLeopards from '$lib/img/buttons/snowleopards.png';
 	import split from '$lib/img/buttons/split.png';
 	import Stitch from '$lib/img/buttons/stitch.png';
 	import TwoPaws from '$lib/img/buttons/twopaws.png';
 	import veast from '$lib/img/buttons/veast.png';
+	import uBlock from '$lib/img/buttons/ublock.png';
+	import MLM from '$lib/img/buttons/mlm.png';
 </script>
 
 <div class="m-auto grid size-fit max-w-xl gap-2">
@@ -77,14 +80,17 @@
 		<Button8831 src={'./img/buttons/cirro.png'} href="https://snep.lol"></Button8831>
 		<Button8831 src={Robin} href="https://x.com/Porpss1"></Button8831>
 		<Button8831 src={azumanga} href="https://azumanga.xyz"></Button8831>
-		<Button8831 src={Firefox} href="https://www.mozilla.org/en-US/firefox/new"></Button8831>
-		<Button8831 src={IndieWeb} href="https://indieweb.org"></Button8831>
 		<Button8831 src={micro} href="https://m1cro.xyz"></Button8831>
+		<Button8831 src={nilenta} href="https://nilenta.com"></Button8831>
 		<Button8831 src={percocet} href="https://percocet.monster"></Button8831>
-		<Button8831 src={SnowLeopards}></Button8831>
 		<Button8831 src={split} href="https://split.pet"></Button8831>
 		<Button8831 src={Stitch} href="https://liloandstit.ch"></Button8831>
-		<Button8831 src={TwoPaws}></Button8831>
 		<Button8831 src={veast} href="https://vea.st"></Button8831>
+		<Button8831 src={Firefox} href="https://www.mozilla.org/en-US/firefox/new"></Button8831>
+		<Button8831 src={IndieWeb} href="https://indieweb.org"></Button8831>
+		<Button8831 src={MLM}></Button8831>
+		<Button8831 src={SnowLeopards}></Button8831>
+		<Button8831 src={TwoPaws}></Button8831>
+		<Button8831 src={uBlock}></Button8831>
 	</div>
 </div>
