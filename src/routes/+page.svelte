@@ -91,6 +91,6 @@
 		<Button8831 src={MLM}></Button8831>
 		<Button8831 src={SnowLeopards}></Button8831>
 		<Button8831 src={TwoPaws}></Button8831>
-		<Button8831 src={uBlock}></Button8831>
+		<Button8831 src={uBlock} href="https://ublockorigin.com"></Button8831>
 	</div>
 </div>
