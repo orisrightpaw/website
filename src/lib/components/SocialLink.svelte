@@ -10,7 +10,7 @@
 </script>
 
 {#if script}
-	<button class="group flex" onclick={() => script}>
+	<button class="group flex" onclick={() => script()}>
 		{@render children()}
 	</button>
 {:else}
