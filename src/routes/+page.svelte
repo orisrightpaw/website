@@ -19,7 +19,6 @@
 	import TwoPaws from '$lib/img/buttons/twopaws.png';
 	import veast from '$lib/img/buttons/veast.png';
 	import uBlock from '$lib/img/buttons/ublock.png';
-	import MLM from '$lib/img/buttons/mlm.png';
 </script>
 
 <div class="m-auto grid size-fit max-w-xl gap-2">
@@ -76,16 +75,15 @@
 
 	<div class="flex w-fit flex-wrap gap-2">
 		<Button8831 src={'./img/buttons/cirro.png'} href="https://snep.lol"></Button8831>
+		<Button8831 src={nilenta} href="https://nilenta.com"></Button8831>
 		<Button8831 src={azumanga} href="https://azumanga.xyz"></Button8831>
 		<Button8831 src={micro} href="https://m1cro.xyz"></Button8831>
-		<Button8831 src={nilenta} href="https://nilenta.com"></Button8831>
 		<Button8831 src={percocet} href="https://percocet.monster"></Button8831>
 		<Button8831 src={split} href="https://split.pet"></Button8831>
 		<Button8831 src={Stitch} href="https://liloandstit.ch"></Button8831>
 		<Button8831 src={veast} href="https://vea.st"></Button8831>
 		<Button8831 src={Firefox} href="https://www.mozilla.org/en-US/firefox/new"></Button8831>
 		<Button8831 src={IndieWeb} href="https://indieweb.org"></Button8831>
-		<Button8831 src={MLM}></Button8831>
 		<Button8831 src={SnowLeopards}></Button8831>
 		<Button8831 src={TwoPaws}></Button8831>
 		<Button8831 src={uBlock} href="https://ublockorigin.com"></Button8831>
