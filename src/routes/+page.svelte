@@ -61,7 +61,9 @@
 	{#if data.lb.payload.count}
 		<p>
 			<i class="ri-disc-line"></i>
-			<span class="font-bold italic">{data.lb.payload.listens[0].track_metadata.artist_name}</span>
+			<span class="font-bold text-neutral-200/85"
+				>{data.lb.payload.listens[0].track_metadata.artist_name}</span
+			>
 			- {data.lb.payload.listens[0].track_metadata.track_name}
 		</p>
 	{/if}
@@ -75,7 +77,7 @@
 		</p>
 	</div>
 
-	<div class="grid w-fit min-w-fit shrink-0 grid-cols-6 gap-2">
+	<div class="grid w-fit min-w-fit shrink-0 gap-2 xl:grid-cols-6">
 		<Button8831 src={'./img/buttons/cirro.png'} href="https://snep.lol"></Button8831>
 		<Button8831 src={nilenta} href="https://nilenta.com"></Button8831>
 		<Button8831 src={azumanga} href="https://azumanga.xyz"></Button8831>

@@ -36,7 +36,7 @@
 
 html,
 body {
-	@apply text-gray-400;
+	@apply text-neutral-200/80;
 	background-color: #212121;
 	background-image: url('$lib/img/background.jpg');
 	background-position: center;
