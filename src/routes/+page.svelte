@@ -11,7 +11,6 @@
 	import Firefox from '$lib/img/buttons/firefox.gif';
 	import IndieWeb from '$lib/img/buttons/indieweb.gif';
 	import micro from '$lib/img/buttons/micro.png';
-	import nilenta from '$lib/img/buttons/nilenta.png';
 	import percocet from '$lib/img/buttons/percocet.png';
 	import SnowLeopards from '$lib/img/buttons/snowleopards.png';
 	import split from '$lib/img/buttons/split.png';
@@ -21,9 +20,7 @@
 	import uBlock from '$lib/img/buttons/ublock.png';
 </script>
 
-<div
-	class="m-auto flex size-fit max-w-fit flex-col gap-2 rounded-md bg-neutral-900/50 p-2.5 shadow"
->
+<div class="m-auto flex max-w-[36.8rem] flex-col gap-2 rounded-lg bg-neutral-900/50 p-2.5 shadow">
 	<div class="flex grow-0 gap-2">
 		<Image height="80px" width="80px" src={data.avatar}></Image>
 		<div class="my-auto grid h-min gap-0.5">
@@ -69,7 +66,7 @@
 	{/if}
 
 	<div>
-		<p class="max-w-xl">
+		<p class="mx-auto">
 			Hello, and welcome to my website. My name is <span class="font-black text-cirro">cirro</span>,
 			and I'm {dayjs().diff(1149652020000, 'years')} years old. I like programming, I'm a Linux enthusiast,
 			and I'm an amateur sysadmin. If you would like to add my button to your site, please link the button
@@ -77,9 +74,8 @@
 		</p>
 	</div>
 
-	<div class="grid w-fit min-w-fit shrink-0 gap-2 xl:grid-cols-6">
+	<div class="mx-auto flex w-fit shrink-0 flex-wrap gap-2">
 		<Button8831 src={'./img/buttons/cirro.png'} href="https://snep.lol"></Button8831>
-		<Button8831 src={nilenta} href="https://nilenta.com"></Button8831>
 		<Button8831 src={azumanga} href="https://azumanga.xyz"></Button8831>
 		<Button8831 src={micro} href="https://m1cro.xyz"></Button8831>
 		<Button8831 src={percocet} href="https://percocet.monster"></Button8831>

@@ -15,11 +15,14 @@
 	});
 </script>
 
-<div class={'rounded-lg bg-neutral-600/20'} style="width: {props.width}; height: {props.height};">
+<div
+	class="shrink-0 rounded-lg bg-neutral-600/20"
+	style="width: {props.width}; height: {props.height};"
+>
 	{#if loaded}
 		<img
 			in:scale
-			class={'z-10 rounded-lg'}
+			class="z-10 rounded-lg"
 			src={loaded}
 			alt=""
 			width={props.width}
