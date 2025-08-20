@@ -38,6 +38,9 @@ html,
 body {
 	@apply text-gray-400;
 	background-color: #212121;
-	background-image: url('$lib/img/carbon.webp');
+	background-image: url('$lib/img/background.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-family: 'SN Pro', sans-serif;
 }

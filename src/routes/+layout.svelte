@@ -2,7 +2,7 @@
 	import { page } from '$app/state';
 	import '../app.css';
 
-	import carbon from '$lib/img/carbon.webp';
+	import background from '$lib/img/background.jpg';
 
 	let { children } = $props();
 </script>
@@ -15,7 +15,7 @@
 	<meta property="og:image" content={page.url.origin + '/img/avatar.png'} />
 	<meta property="og:description" content="Hello! This is my website!" />
 	<meta name="theme-color" content="#c4bef3" />
-	<link rel="prefetch" href={carbon} as="image" type="image/webp" crossorigin="" />
+	<link rel="prefetch" href={background} as="image" type="image/webp" crossorigin="" />
 	<link rel="stylesheet" href="/css/remixicon.css" />
 	<link rel="preload" href="/css/remixicon.css" as="style" />
 	<link
@@ -48,6 +48,6 @@
 	/>
 </svelte:head>
 
-<div class="h-screen pt-32 md:flex md:pt-0">
+<div class="h-screen pt-32 md:flex md:pt-0" style="backdrop-filter: blur(10px);">
 	{@render children()}
 </div>

@@ -21,7 +21,9 @@
 	import uBlock from '$lib/img/buttons/ublock.png';
 </script>
 
-<div class="m-auto grid size-fit max-w-xl gap-2">
+<div
+	class="m-auto flex size-fit max-w-fit flex-col gap-2 rounded-md bg-neutral-900/50 p-2.5 shadow"
+>
 	<div class="flex grow-0 gap-2">
 		<Image height="80px" width="80px" src={data.avatar}></Image>
 		<div class="my-auto grid h-min gap-0.5">
@@ -65,7 +67,7 @@
 	{/if}
 
 	<div>
-		<p>
+		<p class="max-w-xl">
 			Hello, and welcome to my website. My name is <span class="font-black text-cirro">cirro</span>,
 			and I'm {dayjs().diff(1149652020000, 'years')} years old. I like programming, I'm a Linux enthusiast,
 			and I'm an amateur sysadmin. If you would like to add my button to your site, please link the button
@@ -73,7 +75,7 @@
 		</p>
 	</div>
 
-	<div class="flex w-fit flex-wrap gap-2">
+	<div class="grid w-fit min-w-fit shrink-0 grid-cols-6 gap-2">
 		<Button8831 src={'./img/buttons/cirro.png'} href="https://snep.lol"></Button8831>
 		<Button8831 src={nilenta} href="https://nilenta.com"></Button8831>
 		<Button8831 src={azumanga} href="https://azumanga.xyz"></Button8831>
